@@ -1,0 +1,233 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/shift.png
+    - assets/page-1/images/rectangle-4.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/key.png
+    - assets/page-1/images/group-3636.png
+    - assets/page-1/images/lock.png
+    - assets/page-1/images/rectangle-B81.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/auto-group-ecdk.png
+    - assets/page-1/images/rectangle.png
+    - assets/page-1/images/rectangle-4-gxm.png
+    - assets/page-1/images/group-1181.png
+    - assets/page-1/images/vector-2QM.png
+    - assets/page-1/images/rectangle-D6m.png
+    - assets/page-1/images/auto-group-ruk3.png
+    - assets/page-1/images/stroke-716.png
+    - assets/page-1/images/combined-shape.png
+    - assets/page-1/images/rectangle-fhX.png
+    - assets/page-1/images/stroke-716-mJu.png
+    - assets/page-1/images/wi-fi.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/mask-group-Y37.png
+    - assets/page-1/images/auto-group-z2bf.png
+    - assets/page-1/images/wi-fi-RcZ.png
+    - assets/page-1/images/group-3637.png
+    - assets/page-1/images/group-12.png
+    - assets/page-1/images/rectangle-4-aqK.png
+    - assets/page-1/images/group-3648.png
+    - assets/page-1/images/group-1168.png
+    - assets/page-1/images/rectangle-gqb.png
+    - assets/page-1/images/vector-1.png
+    - assets/page-1/images/auto-group-tud7.png
+    - assets/page-1/images/rectangle-tds.png
+    - assets/page-1/images/glyph-mail-trash.png
+    - assets/page-1/images/battery-GT7.png
+    - assets/page-1/images/facebook-3-1.png
+    - assets/page-1/images/combined-shape-4sF.png
+    - assets/page-1/images/group-12-Vgq.png
+    - assets/page-1/images/group-1159.png
+    - assets/page-1/images/group-5950.png
+    - assets/page-1/images/image-17.png
+    - assets/page-1/images/auto-group-fj7x.png
+    - assets/page-1/images/vector-hZX.png
+    - assets/page-1/images/group-6266.png
+    - assets/page-1/images/auto-group-d83o.png
+    - assets/page-1/images/rectangle-QfF.png
+    - assets/page-1/images/group-3644.png
+    - assets/page-1/images/image-18.png
+    - assets/page-1/images/image-141.png
+    - assets/page-1/images/image-142.png
+    - assets/page-1/images/auto-group-ljdw.png
+    - assets/page-1/images/group-5951.png
+    - assets/page-1/images/rectangle-Vuw.png
+    - assets/page-1/images/mask-group-1dP.png
+    - assets/page-1/images/group-3643.png
+    - assets/page-1/images/group-6265.png
+    - assets/page-1/images/star-3.png
+    - assets/page-1/images/vector-GZK.png
+    - assets/page-1/images/star-5.png
+    - assets/page-1/images/group-5952.png
+    - assets/page-1/images/group-6264.png
+    - assets/page-1/images/auto-group-z5zd.png
+    - assets/page-1/images/vector-4.png
+    - assets/page-1/images/group-3650.png
+    - assets/page-1/images/rectangle-5mX.png
+    - assets/page-1/images/group-6261.png
+    - assets/page-1/images/auto-group-4vh7.png
+    - assets/page-1/images/group-3639.png
+    - assets/page-1/images/vector-SkV.png
+    - assets/page-1/images/group-3647.png
+    - assets/page-1/images/rectangle-ezy.png
+    - assets/page-1/images/group-3641.png
+    - assets/page-1/images/auto-group-fyut.png
+    - assets/page-1/images/group-1181-J77.png
+    - assets/page-1/images/group-6391.png
+    - assets/page-1/images/star-1.png
+    - assets/page-1/images/group-5954.png
+    - assets/page-1/images/mask-group-1S5.png
+    - assets/page-1/images/vector-mAM.png
+    - assets/page-1/images/star-4.png
+    - assets/page-1/images/group-5953.png
+    - assets/page-1/images/ellipse-14-bg.png
+    - assets/page-1/images/group-5955.png
+    - assets/page-1/images/group-3645.png
+    - assets/page-1/images/group-6263.png
+    - assets/page-1/images/image-137.png
+    - assets/page-1/images/battery-p8V.png
+    - assets/page-1/images/wi-fi-Zbs.png
+    - assets/page-1/images/group-1163.png
+    - assets/page-1/images/auto-group-61yh.png
+    - assets/page-1/images/mask-group-sCZ.png
+    - assets/page-1/images/image-16.png
+    - assets/page-1/images/image-138.png
+    - assets/page-1/images/combined-shape-oeV.png
+    - assets/page-1/images/dictation-glyph.png
+    - assets/page-1/images/battery-2xu.png
+    - assets/page-1/images/auto-group-nrzm.png
+    - assets/page-1/images/delete.png
+    - assets/page-1/images/auto-group-5yem.png
+    - assets/page-1/images/group-3649.png
+    - assets/page-1/images/mask-group-UsP.png
+    - assets/page-1/images/combined-shape-Yvy.png
+    - assets/page-1/images/mask-group-T7T.png
+    - assets/page-1/images/mask-group-HRF.png
+    - assets/page-1/images/star-6.png
+    - assets/page-1/images/wi-fi-MW5.png
+    - assets/page-1/images/vector-3.png
+    - assets/page-1/images/auto-group-1zrq.png
+    - assets/page-1/images/mask-group-wad.png
+    - assets/page-1/images/rectangle-4-yEm.png
+    - assets/page-1/images/emoji-glyph.png
+    - assets/page-1/images/image-20.png
+    - assets/page-1/images/google-hangouts-1-1.png
+    - assets/page-1/images/image-139.png
+    - assets/page-1/images/image-140.png
+    - assets/page-1/images/image-21.png
+    - assets/page-1/images/ellipse-163-bg.png
+    - assets/page-1/images/vector-eqB.png
+    - assets/page-1/images/star-2.png
+    - assets/page-1/images/mask-group-iH3.png
+    - assets/page-1/images/vector-cKf.png
+    - assets/page-1/images/group-13.png
+    - assets/page-1/images/battery-woT.png
+    - assets/page-1/images/image-23.png
+    - assets/page-1/images/rectangle-LQd.png
+    - assets/page-1/images/group-1207.png
+    - assets/page-1/images/wi-fi-E3w.png
+    - assets/page-1/images/combined-shape-DFB.png
+    - assets/page-1/images/image-22.png
+    - assets/page-1/images/group-1209.png
+    - assets/page-1/images/wi-fi-3xR.png
+    - assets/page-1/images/battery-3bb.png
+    - assets/page-1/images/battery-3mo.png
+    - assets/page-1/images/group-13-suF.png
+    - assets/page-1/images/combined-shape-V2u.png
+    - assets/page-1/images/group-13-vHj.png
+    - assets/page-1/images/group-1208.png
+    - assets/page-1/images/combined-shape-Mnu.png
+    - assets/page-1/images/wi-fi-VUZ.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
